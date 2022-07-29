@@ -1,8 +1,14 @@
+import Head from "next/head";
 import React from "react";
-import "../src/styles/global.css";
+import "@/styles/global.css";
 
 const App = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head />
+      <Component {...pageProps} />
+    </>
+  );
 };
 
 export default App;
