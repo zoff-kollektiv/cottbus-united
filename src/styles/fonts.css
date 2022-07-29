@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("/static/fonts/barlow/barlowCondensed-bold.woff2") format("woff2"),
+    url("/static/fonts/barlow/barlowCondensed-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("/static/fonts/barlow/barlow-bold.woff2") format("woff2"),
+    url("/static/fonts/barlow/barlow-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Infra";
+  src: url("/static/fonts/infra/infra-bold.woff2") format("woff2"),
+    url("/static/fonts/infra/infra-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Infra";
+  src: url("/static/fonts/infra/infra-bold-italic.woff2") format("woff2"),
+    url("/static/fonts/infra/infra-bold-italic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Infra";
+  src: url("/static/fonts/infra/infra-regular.woff2") format("woff2"),
+    url("/static/fonts/infra/infra-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
