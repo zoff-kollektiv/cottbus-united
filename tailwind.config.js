@@ -5,7 +5,37 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      violet: "#F8CAFF",
+      red: "#FF0000",
+      white: "#FFF",
+    },
+    fontFamily: {
+      infra: "Infra",
+      barlow: "Barlow",
+      barlowCondensed: "Barlow Condensed",
+    },
+    fontSize: {
+      xs: "20px",
+      sm: "24px",
+      base: "30px",
+      lg: "32px",
+      xl: "50px",
+      "2xl": "64px",
+    },
+    spacing: {
+      xs: "20px",
+      sm: "32px",
+      base: "49px",
+      lg: "70px",
+      xl: "80px",
+      "2xl": "100px",
+      "3xl": "160px",
+    },
+    screens: {
+      md: "720px",
+      lg: "1024px",
+      },
   },
   plugins: [],
-}
+};
