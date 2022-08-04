@@ -1,5 +1,9 @@
 @import "./fonts.css";
 
+#participate ul {
+    list-style-type: disc;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

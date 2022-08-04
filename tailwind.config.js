@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     colors: {
@@ -24,6 +24,7 @@ module.exports = {
       "2xl": "64px",
     },
     spacing: {
+      0: 0,
       xs: "20px",
       sm: "32px",
       base: "49px",
@@ -35,7 +36,10 @@ module.exports = {
     screens: {
       md: "720px",
       lg: "1024px",
-      },
+    },
+    lineHeight: {
+      tight: 1.2
+    }
   },
   plugins: [],
 };
