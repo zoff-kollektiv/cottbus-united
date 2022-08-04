@@ -31,7 +31,7 @@ const Menu = () => {
     <div className="fixed w-full bottom-0 md:top-0 h-max p-xs md:px-0">
       <ul
         className={clsx(
-          "md:w-[760px] lg:w-[1192px] mx-auto flex flex-col md:flex-row justify-evenly items-center relative",
+          "md:w-[760px] lg:w-[1192px] mx-auto md:flex flex-col md:flex-row justify-evenly items-center relative",
           menuIsOpen ? "flex" : "hidden"
         )}
       >
