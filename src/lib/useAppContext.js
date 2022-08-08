@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { createContext, useContext } from "react";
 
 export const initialState = {
-  menuIsOpen: false,
-  languageMenuIsOpen: false,
+  showMenu: false,
+  showLanguageMenu: false,
   currentLang: "de",
-  showFooter: false
+  showFooter: false,
+  menuHeight: 0
 };
 
 const context = createContext(initialState);

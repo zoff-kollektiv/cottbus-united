@@ -1,9 +1,46 @@
 @import "./fonts.css";
 
 #participate ul {
-    list-style-type: disc;
+  list-style-type: disc;
 }
+
+#participate ul li {
+  @apply ml-xs;
+}
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.zoom {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+.zoom:hover {
+  @apply scale-110;
+}
+
+@layer base {
+  .menuButton {
+    @apply bg-violet border-red text-red uppercase font-barlow border-2 rounded-3xl zoom cursor-pointer text-xs;
+    padding: 14px 20px;
+  }
+  .menuButton:hover {
+    @apply bg-red text-violet;
+  }
+
+  .menuItem {
+    @apply bg-transparent border-0 uppercase text-red font-barlow px-0 rounded-none zoom;
+  }
+  .menuItem:hover {
+    @apply bg-transparent text-red;
+  }
+}
+
+@screen md {
+  .menuButton,
+  .menuItem {
+    @apply text-sm;
+  }
+}

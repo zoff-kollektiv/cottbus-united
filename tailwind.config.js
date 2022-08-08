@@ -9,6 +9,7 @@ module.exports = {
       violet: "#F8CAFF",
       red: "#FF0000",
       white: "#FFF",
+      transparent: "transparent",
     },
     fontFamily: {
       infra: "Infra",

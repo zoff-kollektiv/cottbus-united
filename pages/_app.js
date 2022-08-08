@@ -6,9 +6,21 @@ import { Provider } from "src/lib/useAppContext";
 import useTranslation from "next-translate/useTranslation";
 
 const App = ({ Component, pageProps }) => {
+  const { t } = useTranslation();
   return (
     <Provider>
-      <Head />
+      <Head>
+        <title>{t("default:seo-page-title")}</title>
+        <meta name="description" content={t("default:seo-description")} />
+        <meta name="tags" content={t("default:seo-tags")} />
+        <meta name="author" content="Cottbus United – Opferperspektive e.V." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.cottbus-united.net" />
+        <meta
+          property="og:image"
+          content="https://www.cottbus-united.net/static/images/cottbus-united-opengraph.jpg"
+        />
+      </Head>
       <Menu />
       <Component {...pageProps} />
     </Provider>
