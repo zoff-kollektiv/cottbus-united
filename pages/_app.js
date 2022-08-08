@@ -10,9 +10,9 @@ const App = ({ Component, pageProps }) => {
   return (
     <Provider>
       <Head>
-        <title>{t("default:seo-page-title")}</title>
-        <meta name="description" content={t("default:seo-description")} />
-        <meta name="tags" content={t("default:seo-tags")} />
+        <title>{t("global:seo-page-title")}</title>
+        <meta name="description" content={t("global:seo-description")} />
+        <meta name="tags" content={t("global:seo-tags")} />
         <meta name="author" content="Cottbus United – Opferperspektive e.V." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.cottbus-united.net" />

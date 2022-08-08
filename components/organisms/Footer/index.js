@@ -20,7 +20,7 @@ const Footer = () => {
         }
         className="mx-auto flex items-center flex-col gap-xs uppercase font-barlow text-red text-xs md:text-sm zoom"
       >
-        {t("default:imprint-button")}
+        {t("global:imprint-button")}
         <div className={clsx("w-[50px]", showFooter && "rotate-180")}>
           <ArrowIcon />
         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
 
       <span
         className={clsx(showFooter ? "block" : "hidden")}
-        dangerouslySetInnerHTML={{ __html: t("default:imprint-text") }}
+        dangerouslySetInnerHTML={{ __html: t("global:imprint-text") }}
       />
     </Layout>
   );
