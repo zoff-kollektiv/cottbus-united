@@ -20,6 +20,7 @@ const App = ({ Component, pageProps }) => {
           property="og:image"
           content="https://main--cottbus-united.netlify.app/static/images/cottbus-united-opengraph.jpg"
         />
+        <link rel="shortcut icon" href="/static/images/favicon.png" />
       </Head>
       <Menu />
       <Component {...pageProps} />
