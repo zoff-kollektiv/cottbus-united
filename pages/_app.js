@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }) => {
         <meta property="og:url" content="https://www.cottbus-united.net" />
         <meta
           property="og:image"
-          content="https://www.cottbus-united.net/static/images/cottbus-united-opengraph.jpg"
+          content="https://main--cottbus-united.netlify.app/static/images/cottbus-united-opengraph.jpg"
         />
       </Head>
       <Menu />
