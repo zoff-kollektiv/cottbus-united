@@ -1,13 +1,18 @@
+import clsx from "clsx";
 import Layout from "components/atoms/Layout";
 import useTranslation from "next-translate/useTranslation";
+import { isRTL } from "src/lib/lib";
 
 const Intro = () => {
-  const { t } = useTranslation();
+  const { t, lang } = useTranslation();
 
   return (
     <Layout className="bg-white" id="about">
       <span
-        className="text-red font-infra text-xs md:text-xl leading-tight"
+        className={clsx(
+          "block text-red font-infra text-xs md:text-xl leading-tight",
+          isRTL(lang) && "text-right"
+        )}
         dangerouslySetInnerHTML={{ __html: t("about:text") }}
       />
     </Layout>
