@@ -17,7 +17,7 @@ const Footer = () => {
         onClick={() =>
           setAppState((prev) => ({ ...prev, showFooter: !showFooter }))
         }
-        className="mx-auto block uppercase font-barlow"
+        className="mx-auto block uppercase font-barlow text-red text-xs md:text-sm"
       >
         {t("default:imprint-button")}
       </button>
