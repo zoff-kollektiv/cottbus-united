@@ -16,7 +16,7 @@ const Partners = () => {
         {PARTNERS.map((partner, index) => (
           <div
             key={index}
-            className={clsx("px-xs md:px-base", `w-[${800 * partner.size}px]`)}
+            className={clsx("md:px-xs w-4xl")}
           >
             {partner.icon}
           </div>
