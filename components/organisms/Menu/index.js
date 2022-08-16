@@ -24,7 +24,7 @@ const Menu = () => {
   return (
     <>
       <div className="w-full fixed top-0 z-30 bg-violet" ref={menuRef}>
-        <div className="items-center justify-evenly md:gap-xs lg:gap-xl max-w-[1192px] mx-auto p-xs hidden md:flex">
+        <div className="items-center justify-evenly md:gap-2xs lg:gap-xl max-w-[1192px] mx-auto p-xs hidden md:flex">
           <NavigationMenu />
           <div className="relative">
             <button
