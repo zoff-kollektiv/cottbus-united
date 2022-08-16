@@ -4,8 +4,12 @@
     "participate": "Mitmachen",
     "resources": "Material",
     "contact": "Kontakt",
-    "de": "deutsch",
+     "de": "deutsch",
     "en": "english",
-    "ar": "arabic",
-    "fr": "french"
+    "fr": "français",
+    "es": "español",
+    "vi": "Tiếng Việt",
+    "bn": "বাংলা",
+    "ar": "عربى",
+    "fa": "فارسي"
 }
