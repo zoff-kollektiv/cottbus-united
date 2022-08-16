@@ -1,11 +1,16 @@
 {
-    "about": "Über uns",
-    "mission": "Ziele",
-    "participate": "Mitmachen",
+    "about": "About",
+    "mission": "Aims",
+    "participate": "Get Involved",
     "resources": "Material",
-    "contact": "Kontakt",
+    "contact": "Contact",
     "de": "deutsch",
     "en": "english",
-    "ar": "arabic",
-    "fr": "french"
+    "fr": "français",
+    "es": "español",
+    "vi": "Tiếng Việt",
+    "bn": "বাংলা",
+    "ar": "عربى",
+    "fa": "فارسي"
+    
 }
