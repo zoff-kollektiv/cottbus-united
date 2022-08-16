@@ -1,11 +1,15 @@
 {
-    "about": "Über uns",
-    "mission": "Ziele",
-    "participate": "Mitmachen",
-    "resources": "Material",
-    "contact": "Kontakt",
+    "about": "আমাদের সম্পর্কে",
+    "mission": "উদ্দেশ্য",
+    "participate": "অংশগ্রহণ করুন",
+    "resources": "যা যা আছে",
+    "contact": "যোগাযোগ",
     "de": "deutsch",
     "en": "english",
-    "ar": "arabic",
-    "fr": "french"
+    "fr": "français",
+    "es": "español",
+    "vi": "Tiếng Việt",
+    "bn": "বাংলা",
+    "ar": "عربى",
+    "fa": "فارسي"
 }
