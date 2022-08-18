@@ -10,8 +10,7 @@ const Intro = () => {
     <Layout className="bg-white" id="about">
       <span
         className={clsx(
-          "block text-red font-infra text-xs md:text-xl leading-tight",
-          isRTL(lang) && "text-right"
+          "block text-red font-infra text-xs md:text-xl leading-tight"
         )}
         dangerouslySetInnerHTML={{ __html: t("about:text") }}
       />

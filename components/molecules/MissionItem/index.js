@@ -12,10 +12,10 @@ const MissionItem = ({ index }) => {
   const { t, lang } = useTranslation();
 
   return (
-    <li className={clsx("flex flex-col md:flex-row gap-xs md:gap-xl items-center md:items-start", isRTL(lang) && "md:flex-row-reverse")}>
+    <li className={clsx("flex flex-col md:flex-row gap-xs md:gap-xl items-center md:items-start")}>
       <div className="w-[94px] md:w-[160px] flex-shrink-0 mx-auto">{ICONS[index]}</div>
       <div className="flex flex-col gap-xs md:gap-[8px]">
-        <h3 className="font-barlowCondensed text-2xl text-red uppercase text-center md:text-left leading-tight">
+        <h3 className="font-barlowCondensed text-2xl text-red uppercase text-center md:text-left md:rtl:text-right leading-tight">
           {t(`mission:${index + 1}-title`)}
         </h3>
         <span

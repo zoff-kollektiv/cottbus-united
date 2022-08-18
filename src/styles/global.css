@@ -8,6 +8,10 @@
   @apply ml-xs;
 }
 
+#participate ul li:dir(rtl) {
+  @apply mr-xs;
+}
+
 
 @tailwind base;
 @tailwind components;

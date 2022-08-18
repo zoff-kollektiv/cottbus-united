@@ -39,7 +39,7 @@ const Menu = () => {
               {!showLanguageMenu ? <LanguageIcon /> : <ClosingIcon />}
             </button>
             {showLanguageMenu && (
-              <LanguageMenu className="absolute right-0 pt-xs" />
+              <LanguageMenu className="absolute right-0 rtl:left-0 pt-xs" />
             )}
           </div>
         </div>
