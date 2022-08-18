@@ -6,7 +6,7 @@ const Document = (props) => {
   const { t } = useTranslation();
 
   return (
-    <Html dir={isRTL(props.__NEXT_DATA__.locale) ? "rtl" : "ltr"}>
+    <Html dir={isRTL(props.__NEXT_DATA__.locale) ? "rtl" : "ltr"} lang={props.__NEXT_DATA__.locale}>
       <Head>
         <meta name="description" content={t("global:seo-description")} />
         <meta name="tags" content={t("global:seo-tags")} />
