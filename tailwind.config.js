@@ -15,6 +15,7 @@ module.exports = {
       infra: "Infra",
       barlow: "Barlow",
       barlowCondensed: "Barlow Condensed",
+      noto: "Noto"
     },
     fontSize: {
       xs: "20px",
