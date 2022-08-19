@@ -1,6 +1,8 @@
 {
     "booklets-title": "Unsere 3 digitalen Heft lesen",
     "booklets-button": "Download",
+    "booklets-url": "https://cottbus-united.net/static/files/cottbus-united-web-pdfs.zip",
     "posters-title": "Hefte, Plakate und Aufkleber bestellen",
-    "posters-button": "Bestellen"
+    "posters-button": "Bestellen",
+    "posters-url": "mailto:info@opferperspektive.de"
 }

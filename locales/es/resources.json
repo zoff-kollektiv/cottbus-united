@@ -1,6 +1,8 @@
 {
     "booklets-title": "Accede a nuestros 3 folletos digitales",
     "booklets-button": "Descargas",
+    "booklets-url": "https://cottbus-united.net/static/files/cottbus-united-web-pdfs.zip",
     "posters-title": "Encargar folletos, carteles y pegatinas",
-    "posters-button": "Encargos"
+    "posters-button": "Encargos",
+    "posters-url": "mailto:info@opferperspektive.de"
 }

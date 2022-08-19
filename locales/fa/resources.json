@@ -1,6 +1,8 @@
 {
     "booklets-title": "سه دفترچه دیجیتال ما را بخوانید",
     "booklets-button": "دانلود",
+    "booklets-url": "https://cottbus-united.net/static/files/cottbus-united-web-pdfs.zip",
     "posters-title": "سفارش دفترچه، پوستر و استیکر",
-    "posters-button": "سفارش"
+    "posters-button": "سفارش",
+    "posters-url": "mailto:info@opferperspektive.de"
 }

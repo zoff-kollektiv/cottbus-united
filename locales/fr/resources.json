@@ -1,6 +1,8 @@
 {
     "booklets-title": "Lire nos 3 carnets d’infos sous forme digitale",
     "booklets-button": "Télécharger",
+    "booklets-url": "https://cottbus-united.net/static/files/cottbus-united-web-pdfs.zip",
     "posters-title": "Commander nos carnets, posters et autocollants",
-    "posters-button": "Commander"
+    "posters-button": "Commander",
+    "posters-url": "mailto:info@opferperspektive.de"
 }
