@@ -59,7 +59,7 @@
 }
 
 .imprint h3 {
-  @apply font-bold pb-2xs pt-xs text-base text-red;
+  @apply font-bold pb-2xs pt-xs text-base text-violet;
 }
 
 .imprint a {
