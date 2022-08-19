@@ -12,7 +12,6 @@
   @apply mr-xs;
 }
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -49,6 +48,29 @@
   }
 }
 
-.font-infra:lang(vi), .font-barlow:lang(vi), .font-barlowCondensed:lang(vi) {
+.font-infra:lang(vi),
+.font-barlow:lang(vi),
+.font-barlowCondensed:lang(vi) {
   @apply font-noto;
+}
+
+.imprint h2 {
+  @apply font-bold pb-2xs pt-xs text-lg;
+}
+
+.imprint h3 {
+  @apply font-bold pb-2xs pt-xs text-base;
+}
+
+.imprint a {
+  @apply underline;
+}
+
+.imprint ul {
+  @apply list-disc ml-xs py-2xs;
+}
+
+.imprint p {
+  @apply pb-2xs;
+
 }

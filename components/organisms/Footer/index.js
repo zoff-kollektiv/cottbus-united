@@ -27,7 +27,7 @@ const Footer = () => {
       </button>
 
       <span
-        className={clsx(showFooter ? "block" : "hidden")}
+        className={clsx(showFooter ? "block" : "hidden", "imprint")}
         dangerouslySetInnerHTML={{ __html: t("global:imprint-text") }}
       />
     </Layout>
