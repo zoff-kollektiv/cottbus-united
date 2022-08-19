@@ -20,7 +20,9 @@ const ResourceItem = ({ resource }) => {
       <div className="w-[256px] md:w-[400px]">
         {RESOURCEICONS.filter(({ type }) => type === resource)[0].icon}
       </div>
-      <Button>{t(`resources:${resource}-button`)}</Button>
+      <Button url={t(`resources:${resource}-url`)}>
+        {t(`resources:${resource}-button`)}
+      </Button>
     </li>
   );
 };
