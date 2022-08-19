@@ -6,20 +6,21 @@ import OpferperspektiveLogo from "src/assets/svgs/logos/Opferperspektive";
 
 const Partners = () => {
   const PARTNERS = [
-    { icon: <OpferperspektiveLogo />, size: 0.8 },
-    { icon: <ADBLogo />, size: 0.8 },
-    { icon: <BMFSFJLogo />, size: 1 },
+    { icon: <OpferperspektiveLogo />, size: 1, link: "https://www.opferperspektive.de/home" },
+    { icon: <ADBLogo />, size: 0.6, link: "https://www.antidiskriminierungsberatung-brandenburg.de/homeseite/"},
+    { icon: <BMFSFJLogo />, size: 1.8, link: "https://www.demokratie-leben.de/" },
   ];
   return (
     <Layout>
       <div className="flex flex-col md:flex-row gap-xl items-center justify-center flex-wrap">
         {PARTNERS.map((partner, index) => (
-          <div
+          <a
             key={index}
-            className={clsx("md:px-xs w-4xl")}
+            className={clsx("flex-1 w-4xl flex justify-center")}
+            href={partner.link}
           >
             {partner.icon}
-          </div>
+          </a>
         ))}
       </div>
     </Layout>
