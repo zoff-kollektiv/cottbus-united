@@ -55,11 +55,11 @@
 }
 
 .imprint h2 {
-  @apply font-bold pb-2xs pt-xs text-lg;
+  @apply font-bold pb-2xs pt-xs text-lg text-red;
 }
 
 .imprint h3 {
-  @apply font-bold pb-2xs pt-xs text-base;
+  @apply font-bold pb-2xs pt-xs text-base text-red;
 }
 
 .imprint a {
