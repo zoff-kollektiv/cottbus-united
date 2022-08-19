@@ -5,6 +5,7 @@ const BMFSFJLogo = () => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 547 140"
+    width={300}
   >
     <path fill="#000" d="M51.118 46.833v31.055h-5.435V46.832h5.435z"></path>
     <path fill="#E30613" d="M51.118 77.888v31.056h-5.435V77.888h5.435z"></path>

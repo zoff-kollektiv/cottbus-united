@@ -5,6 +5,7 @@ const ADBLogo = () => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 180 100"
+    width={150}
   >
     <path
       fill="#B61F29"
