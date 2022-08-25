@@ -14,7 +14,7 @@ const ContactItem = ({ item }) => {
   const { t } = useTranslation();
 
   return (
-      <a href={t(`contact:${item}-url`)} className="cursor-pointer flex flex-col gap-sm items-center zoom">
+      <a href={t(`contact:${item}-url`)} className="cursor-pointer flex flex-1 flex-col gap-sm items-center zoom">
         {CONTACTICONS.filter(({ type }) => type === item)[0].icon}
         <span className="text-violet text-lg font-bold font-infra leading-tight text-center px-sm">{t(`contact:${item}-text`)}</span>
       </a>
