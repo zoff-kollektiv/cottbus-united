@@ -25,11 +25,15 @@
 }
 
 @layer base {
+  .menuButton--small {
+    @apply bg-violet border-red text-red uppercase font-barlow border-2 rounded-3xl zoom cursor-pointer text-xs;
+    padding: 8px 10px;
+  }
   .menuButton {
     @apply bg-violet border-red text-red uppercase font-barlow border-2 rounded-3xl zoom cursor-pointer text-xs;
     padding: 14px 20px;
   }
-  .menuButton:hover {
+  .menuButton:hover, .menuButton--small:hover {
     @apply bg-red text-violet;
   }
 
