@@ -38,7 +38,7 @@
   }
 
   .menuItem {
-    @apply bg-transparent border-0 uppercase text-red font-barlow px-0 rounded-none zoom;
+    @apply bg-transparent border-0 uppercase text-red font-barlow px-0 rounded-none zoom font-bold;
   }
   .menuItem:hover {
     @apply bg-transparent text-red;
