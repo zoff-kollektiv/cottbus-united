@@ -1,12 +1,11 @@
 import { Head, Html, Main, NextScript } from "next/document";
 import useTranslation from "next-translate/useTranslation";
-import { isRTL } from "src/lib/lib";
 
-const Document = (props) => {
+const Document = () => {
   const { t } = useTranslation();
 
   return (
-    <Html dir={isRTL(props.__NEXT_DATA__.locale) ? "rtl" : "ltr"} lang={props.__NEXT_DATA__.locale}>
+    <Html>
       <Head>
         <meta name="description" content={t("global:seo-description")} />
         <meta name="tags" content={t("global:seo-tags")} />
