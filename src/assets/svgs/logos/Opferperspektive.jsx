@@ -5,6 +5,7 @@ const OpferperspektiveLogo = () => (
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 324 101"
+    width={220}
   >
     <path
       fill="#B61F29"
