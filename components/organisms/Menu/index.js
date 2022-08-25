@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import ClosingIcon from "src/assets/svgs/closing";
+import ClosingIconCircle from "src/assets/svgs/closing--circle";
 import HamburgerIcon from "src/assets/svgs/hamburger";
 import LanguageIcon from "src/assets/svgs/language";
 import LanguageMobileIcon from "src/assets/svgs/languageMobile";
@@ -39,7 +40,7 @@ const Menu = () => {
               {!showLanguageMenu ? <LanguageIcon /> : <ClosingIcon />}
             </button>
             {showLanguageMenu && (
-              <LanguageMenu className="absolute right-0 rtl:left-0 pt-xs" />
+              <LanguageMenu className="absolute right-0 rtl:left-0 pt-xs overflow-visible" />
             )}
           </div>
         </div>
@@ -57,7 +58,7 @@ const Menu = () => {
                 setAppState((prev) => ({ ...prev, showMenu: !showMenu }))
               }
             >
-              {!showMenu ? <HamburgerIcon /> : <ClosingIcon />}
+              {!showMenu ? <HamburgerIcon /> : <ClosingIconCircle />}
             </button>
             <button
               className="w-[100px] zoom"
@@ -68,7 +69,7 @@ const Menu = () => {
                 }))
               }
             >
-              {!showLanguageMenu ? <LanguageMobileIcon /> : <ClosingIcon />}
+              {!showLanguageMenu ? <LanguageMobileIcon /> : <ClosingIconCircle />}
             </button>
           </div>
         </div>
